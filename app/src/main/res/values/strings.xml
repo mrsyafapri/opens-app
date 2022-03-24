@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Opens App</string>
+    <string name="police">Police</string>
+    <string name="hospital">Hospital</string>
+    <string name="shop">Shop</string>
+    <string name="school">School</string>
+</resources>

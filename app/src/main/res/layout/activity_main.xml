@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageViewHospital"
+            android:layout_width="match_parent"
+            android:layout_height="204dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/hospital"
+            android:onClick="clickHospital"
+            app:srcCompat="@drawable/hospital"
+            tools:ignore="SpeakableTextPresentCheck,UsingOnClickInXml" />
+
+        <ImageView
+            android:id="@+id/imageViewPolice"
+            android:layout_width="match_parent"
+            android:layout_height="204dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/police"
+            app:srcCompat="@drawable/police" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageViewShop"
+            android:layout_width="match_parent"
+            android:layout_height="204dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/shop"
+            app:srcCompat="@drawable/shop" />
+
+        <ImageView
+            android:id="@+id/imageViewSchool"
+            android:layout_width="match_parent"
+            android:layout_height="204dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/school"
+            app:srcCompat="@drawable/school" />
+    </TableRow>
+
+</LinearLayout>
